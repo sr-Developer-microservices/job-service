@@ -26,5 +26,6 @@ public class JobService {
     public Job findJobById(Long id) {
         log.info("Inside findJobById method of JobService.");
         return jobRepository.findByJobId(id);
+//        return jobRepository.findById(id);
     }
 }

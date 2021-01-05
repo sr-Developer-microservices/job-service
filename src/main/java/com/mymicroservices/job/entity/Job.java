@@ -23,6 +23,6 @@ public class Job {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long jobId;
     private String jobTitle;
-    private Double minSalaray;
+    private Double minSalary;
     private Double maxSalary;
 }
